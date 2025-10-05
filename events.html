@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | DJ Spender UG</title>
+  <link rel="stylesheet" href="styles/events.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <h1 class="logo">Spender UG</h1>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="music.html">Mixes</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" aria-label="Open navigation" tabindex="0">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1>Upcoming & Past Events</h1>
+      <p>Catch DJ Spender UG live at these venues and festivals. Stay tuned for more dates!</p>
+    </div>
+  </section>
+
+  <!-- EVENTS SECTION -->
+  <section class="events section">
+    <div class="events-list">
+      <!-- Example events, replace or add more as needed -->
+      <div class="event-card">
+        <h3>Afrobeat Night - Kampala</h3>
+        <p class="event-date">October 18, 2025</p>
+        <p class="event-location">Sky Lounge, Kampala</p>
+        <p class="event-desc">A night of Afrobeat, Dancehall, and EDM. Special guests and exclusive mixes!</p>
+      </div>
+      <div class="event-card">
+        <h3>Festival Vibes - Jinja</h3>
+        <p class="event-date">November 7, 2025</p>
+        <p class="event-location">Jinja Festival Grounds</p>
+        <p class="event-desc">Outdoor festival with top Ugandan artists. DJ Spender UG on the main stage.</p>
+      </div>
+      <div class="event-card past">
+        <h3>EDM Summer Bash</h3>
+        <p class="event-date">August 22, 2025</p>
+        <p class="event-location">The Warehouse, Entebbe</p>
+        <p class="event-desc">High-energy EDM party. Relive the night with photos in the gallery!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 DJ Spender UG. All rights reserved.</p>
+      <div class="social-links">
+  <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
+  <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" width="24" height="24"></a>
+  <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="24" height="24"></a>
+  <a href="https://youtube.com/yourprofile" target="_blank" rel="noopener" aria-label="YouTube"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" width="24" height="24"></a>
+  <a href="https://tiktok.com/@yourprofile" target="_blank" rel="noopener" aria-label="TikTok"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" width="24" height="24"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
