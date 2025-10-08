@@ -10,7 +10,7 @@
   <!-- NAVBAR -->
   <header>
     <nav>
-  <a href="home.html" class="logo"><img src="images/logo.jpg" alt="SpenderUG Music Logo"></a>
+      <a href="home.html" class="logo"><img src="images/logo.jpg" alt="SpenderUG Music Logo"></a>
       <ul class="nav-links">
         <li><a href="home.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -38,24 +38,41 @@
 
   <!-- MUSIC SECTION -->
   <section class="music">
+    <h2>Latest Mixes</h2>
+    <p>Listen to DJ Spender UG’s hottest tracks from events, parties, and studio sessions.</p>
+
     <div class="music-grid">
       <div class="mix">
-        <h3>Afrobeat Vibes Mix</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no"
-          src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/your-mix1"></iframe>
-      </div>
-
-      <div class="mix">
         <h3>EDM Night Party Mix</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no"
-          src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/your-mix2"></iframe>
+        <iframe width="100%" height="315"
+          src="https://www.youtube.com/embed/ptzAH478rS0"
+          title="EDM Night Party Mix" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
       </div>
 
       <div class="mix">
-        <h3>Hip Hop & Dancehall Mix</h3>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no"
-          src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/your-mix3"></iframe>
+        <h3>House & Dance Floor Hits</h3>
+        <iframe width="100%" height="315"
+          src="https://www.youtube.com/embed/vR1y4lTyNmg"
+          title="House & Dance Floor Hits" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
       </div>
+
+      <div class="mix">
+        <h3>Hip Hop & Dancehall Party Mix</h3>
+        <iframe width="100%" height="315"
+          src="https://www.youtube.com/embed/YOUR_NEXT_LINK_HERE"
+          title="Hip Hop & Dancehall Party Mix" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <!-- Add more mixes here with correct type and link -->
     </div>
   </section>
 
@@ -64,11 +81,11 @@
     <div class="footer-content">
       <p>&copy; 2025 DJ Spender UG. All rights reserved.</p>
       <div class="social-links">
-  <a href="https://www.facebook.com/tonnykpromotions" target="_blank" rel="noopener" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
-  <a href="https://x.com/SpenderPromoter?t=L8dtu6AFNjYxLcSY6Tj0vw&s=09" target="_blank" rel="noopener" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" width="24" height="24"></a>
-  <a href="https://www.instagram.com/iamspenderug?igsh=MWpqeHZpNGo5MGJnaw==" target="_blank" rel="noopener" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="24" height="24"></a>
-  <a href="https://youtube.com/@spenderuginternational1?si=F2Lt9WRIhX7FKA-v" target="_blank" rel="noopener" aria-label="YouTube"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" width="24" height="24"></a>
-  <a href="https://www.tiktok.com/@spenderug2561?_t=ZM-90NHFezyggq&_r=1" target="_blank" rel="noopener" aria-label="TikTok"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" width="24" height="24"></a>
+        <a href="https://www.facebook.com/tonnykpromotions" target="_blank" rel="noopener" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://x.com/SpenderPromoter" target="_blank" rel="noopener" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter"></a>
+        <a href="https://www.instagram.com/iamspenderug" target="_blank" rel="noopener" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://youtube.com/@spenderuginternational1" target="_blank" rel="noopener" aria-label="YouTube"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube"></a>
+        <a href="https://www.tiktok.com/@spenderug2561" target="_blank" rel="noopener" aria-label="TikTok"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok"></a>
       </div>
     </div>
   </footer>
@@ -76,7 +93,6 @@
   <script>
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
-
     hamburger.addEventListener('click', () => {
       navLinks.classList.toggle('show');
     });
