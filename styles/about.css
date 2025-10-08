@@ -14,7 +14,7 @@ body {
 
 /* NAVBAR */
 header {
-  background: rgba(0, 0, 0, 0.7);
+  background: #111827;
   padding: 15px 30px;
   position: fixed;
   width: 100%;
@@ -26,6 +26,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo img {
+  height: 90px;
+  max-height: 90px;
+  transform: scale(4.9);
+  transform-origin: left center;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .logo {
@@ -121,7 +131,12 @@ nav {
 }
 
 .about-image img {
-  width: 300px;
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }

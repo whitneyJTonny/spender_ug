@@ -26,13 +26,22 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
-.logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #ff4d00;
+
+
+.logo img {
+  height: 90px;
+  max-height: 90px;
+    transform: scale(4.9);
+  transform-origin: left center;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
+
+ 
 
 .nav-links {
   list-style: none;
@@ -79,6 +88,17 @@ nav {
   position: relative;
   z-index: 1;
   margin-top: 60px; /* push down to avoid navbar */
+}
+
+.hero-img {
+  width: 220px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ff4d00;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  margin-top: 40px;
+  margin-bottom: 42px;
 }
 
 .hero-text h1 {

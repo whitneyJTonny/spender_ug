@@ -6,6 +6,16 @@ body {
   color: #fff;
 }
 
+.logo img {
+  height: 90px;
+  max-height: 90px;
+  transform: scale(4.9);
+  transform-origin: left center;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
 /* NAVBAR */
 header {
   background: #111827;
